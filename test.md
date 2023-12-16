@@ -6,16 +6,3 @@ Unified Workflow with Terraform Cloud
 
 Creating a Golden Image
 
-2
-
-Agenda
-
-Packer OSS & HCP Packer Overview 
-
-02
-
-03
-
-01
-
-Go through the agenda to start off the webinar 
