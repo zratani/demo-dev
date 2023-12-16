@@ -1,0 +1,33 @@
+Password has been expired on server sena-pcifiles.wdw.disney.com for user – SFTP
+
+After reviewing certain users, they do not have the correct local user settings and the password is expiring
+
+To resolve:
+
+
+
+1. RDP to fldcvpswa22319.wdw.disney.com
+2. Open Computer Management console
+    1. 
+![alt_text](images/image1.png "image_tooltip")
+
+3. Under Local Users and Groups, In the Administrators group – temporarily remove the user mentioned in the INC
+    2. 
+![alt_text](images/image2.png "image_tooltip")
+
+4. Under the Users group – update the user with the mentioned settings
+    3. Uncheck – User must change password on next logon
+    4. Check - User cannot change password
+    5. Check – password doesn’t expire
+    6. User cannot change password
+    7. 
+![alt_text](images/image3.png "image_tooltip")
+
+    8. 
+![alt_text](images/image4.png "image_tooltip")
+
+5. Right click on the mentioned user and reset the password. SFTP users do NOT use a password so the value can be anything secure
+6. Back under Administrators Group – re-add the user
+
+        
+![alt_text](images/image5.png "image_tooltip")
